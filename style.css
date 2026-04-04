@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid gray;
+}
+
+header h1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+p, span{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        text-align: justify;
+        max-width: 800px;
+        margin: 20px auto;
+}
+
+header img {
+    width: 150px;
+}
+
+.instagram {
+    margin-top: 10px;
+}
+
+.instagram img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
+
+.instagram a {
+    color: white;
+    text-decoration: none;
+    margin-left: 2px;
+    font-style: italic;
+    
+}
+
+.instagram a:hover {
+    color: red;
+    transition: 0.3s    ;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+    border-top: 1px solid gray;
+}
