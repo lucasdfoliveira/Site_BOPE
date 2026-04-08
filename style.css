@@ -8,6 +8,8 @@ header {
     justify-content: space-between;
     padding: 10px 20px;
     border-bottom: 1px solid gray;
+    max-width: 800px;
+    margin: auto;
 }
 
 header h1{
@@ -33,6 +35,7 @@ p, span{
 
 header img {
     width: 150px;
+    margin-left: -370px;
 }
 
 .instagram {
@@ -58,9 +61,41 @@ header img {
     transition: 0.3s    ;
 }
 
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: #00FFCC;
+    transition: 0.3s;
+}
+
+.pac {
+    color: white;
+    display: flex;
+    gap: 20px; 
+    max-width: 500px;
+    margin-left: 180px;
+    text-align: justify;
+}
+
 footer {
     text-align: center;
     color: gray;
     margin-top: 30px;
     border-top: 1px solid gray;
+    max-width: 835px;
+    margin: auto;
 }
