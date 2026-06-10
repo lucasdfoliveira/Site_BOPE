@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    color: white;
 }
 
 header {
@@ -39,19 +40,22 @@ header img {
 }
 
 .instagram {
+    position: absolute;
+    right: -310px;
+    top: 20px;
     margin-top: 10px;
+    align-items: center;
+    gap: 5px;
 }
 
 .instagram img {
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 .instagram a {
     color: white;
-    text-decoration: none;
-    margin-left: 2px;
+    text-decoration: none;  
     font-style: italic;
     
 }
@@ -82,13 +86,74 @@ header img {
     transition: 0.3s;
 }
 
-.pac {
-    color: white;
+.equipes {
     display: flex;
-    gap: 20px; 
-    max-width: 500px;
-    margin-left: 180px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.pac, .intervencao {
+    color: white;
+    width: 45%;
     text-align: justify;
+}
+
+.barra {
+    font-size: 40px;    
+    color: gray;
+    display: inline-block;
+    transform: scaleY(2.5);
+    transform-origin: center;
+    padding: 20px 0;
+    
+}
+
+.escolha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.denuncia {
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.denuncia span{
+    color: red;
+}
+
+.facanacaveira{
+    display: block;
+    width: 800px;
+    height: auto;
+    margin: auto;
+
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.formulario h3 {
+    text-decoration: underline;
+    text-align: left;
 }
 
 footer {
