@@ -1,10 +1,14 @@
 Vitae Defensor
 
+
 Projeto desenvolvido para a disciplina de Desenvolvimento Web, com o objetivo de aplicar conceitos fundamentais de HTML e CSS na construção de um site institucional inspirado em uma unidade especializada de operações policiais.
+
 
 Sobre o Projeto
 
+
 O site apresenta informações sobre o BOPE (Batalhão de Operações Policiais Especiais), destacando suas missões, valores e equipes especializadas. O projeto foi desenvolvido com foco na utilização de elementos semânticos do HTML5 e estilização utilizando CSS.
+
 
 Funcionalidades
 Página principal com apresentação institucional;
@@ -27,7 +31,9 @@ Estrutura do Projeto
 └── imagens/
 Objetivos Acadêmicos
 
+
 Este projeto tem como finalidade exercitar os seguintes conceitos:
+
 
 Estruturação de páginas com HTML;
 Uso de tags semânticas;
@@ -37,5 +43,6 @@ Utilização de imagens e links;
 Estilização com CSS;
 Organização de conteúdo utilizando Flexbox.
 Autor
+
 
 Desenvolvido por Lucas de Almeida Freire Albuquerque Oliveira para a disciplina de Desenvolvimento Web.
